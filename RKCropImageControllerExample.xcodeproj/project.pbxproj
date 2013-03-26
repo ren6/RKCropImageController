@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B61C8A1701C36A008F3EA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B61C891701C36A008F3EA5 /* UIKit.framework */; };
+		84B61C8C1701C36A008F3EA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B61C8B1701C36A008F3EA5 /* Foundation.framework */; };
+		84B61C8E1701C36A008F3EA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B61C8D1701C36A008F3EA5 /* CoreGraphics.framework */; };
+		84B61C941701C36A008F3EA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84B61C921701C36A008F3EA5 /* InfoPlist.strings */; };
+		84B61C961701C36A008F3EA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B61C951701C36A008F3EA5 /* main.m */; };
+		84B61C9A1701C36A008F3EA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B61C991701C36A008F3EA5 /* AppDelegate.m */; };
+		84B61C9C1701C36A008F3EA5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B61C9B1701C36A008F3EA5 /* Default.png */; };
+		84B61C9E1701C36A008F3EA5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B61C9D1701C36A008F3EA5 /* Default@2x.png */; };
+		84B61CA01701C36A008F3EA5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B61C9F1701C36A008F3EA5 /* Default-568h@2x.png */; };
+		84B61CA31701C36A008F3EA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B61CA21701C36A008F3EA5 /* ViewController.m */; };
+		84B61CA61701C36A008F3EA5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B61CA41701C36A008F3EA5 /* ViewController.xib */; };
+		84B61CB81701C398008F3EA5 /* cropArrowBottomLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B61CAD1701C398008F3EA5 /* cropArrowBottomLeft.png */; };
+		84B61CB91701C398008F3EA5 /* cropArrowBottomLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B61CAE1701C398008F3EA5 /* cropArrowBottomLeft@2x.png */; };
+		84B61CBA1701C398008F3EA5 /* cropArrowBottomRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B61CAF1701C398008F3EA5 /* cropArrowBottomRight.png */; };
+		84B61CBB1701C398008F3EA5 /* cropArrowBottomRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B61CB01701C398008F3EA5 /* cropArrowBottomRight@2x.png */; };
+		84B61CBC1701C398008F3EA5 /* cropArrowTopLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B61CB11701C398008F3EA5 /* cropArrowTopLeft.png */; };
+		84B61CBD1701C398008F3EA5 /* cropArrowTopLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B61CB21701C398008F3EA5 /* cropArrowTopLeft@2x.png */; };
+		84B61CBE1701C398008F3EA5 /* cropArrowTopRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B61CB31701C398008F3EA5 /* cropArrowTopRight.png */; };
+		84B61CBF1701C398008F3EA5 /* cropArrowTopRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B61CB41701C398008F3EA5 /* cropArrowTopRight@2x.png */; };
+		84B61CC01701C398008F3EA5 /* RKCropImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B61CB61701C398008F3EA5 /* RKCropImageController.m */; };
+		84B61CC11701C398008F3EA5 /* RKCropImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B61CB71701C398008F3EA5 /* RKCropImageController.xib */; };
+		84B61CC41701C3C7008F3EA5 /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B61CC31701C3C7008F3EA5 /* UIImage+Extensions.m */; };
+		84B61CCC1701C65E008F3EA5 /* example.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B61CCB1701C65E008F3EA5 /* example.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84B61C861701C36A008F3EA5 /* RKCropImageControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKCropImageControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B61C891701C36A008F3EA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84B61C8B1701C36A008F3EA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84B61C8D1701C36A008F3EA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84B61C911701C36A008F3EA5 /* RKCropImageControllerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RKCropImageControllerExample-Info.plist"; sourceTree = "<group>"; };
+		84B61C931701C36A008F3EA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84B61C951701C36A008F3EA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84B61C971701C36A008F3EA5 /* RKCropImageControllerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RKCropImageControllerExample-Prefix.pch"; sourceTree = "<group>"; };
+		84B61C981701C36A008F3EA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84B61C991701C36A008F3EA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84B61C9B1701C36A008F3EA5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		84B61C9D1701C36A008F3EA5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		84B61C9F1701C36A008F3EA5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		84B61CA11701C36A008F3EA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84B61CA21701C36A008F3EA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84B61CA51701C36A008F3EA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		84B61CAD1701C398008F3EA5 /* cropArrowBottomLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropArrowBottomLeft.png; sourceTree = "<group>"; };
+		84B61CAE1701C398008F3EA5 /* cropArrowBottomLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cropArrowBottomLeft@2x.png"; sourceTree = "<group>"; };
+		84B61CAF1701C398008F3EA5 /* cropArrowBottomRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropArrowBottomRight.png; sourceTree = "<group>"; };
+		84B61CB01701C398008F3EA5 /* cropArrowBottomRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cropArrowBottomRight@2x.png"; sourceTree = "<group>"; };
+		84B61CB11701C398008F3EA5 /* cropArrowTopLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropArrowTopLeft.png; sourceTree = "<group>"; };
+		84B61CB21701C398008F3EA5 /* cropArrowTopLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cropArrowTopLeft@2x.png"; sourceTree = "<group>"; };
+		84B61CB31701C398008F3EA5 /* cropArrowTopRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropArrowTopRight.png; sourceTree = "<group>"; };
+		84B61CB41701C398008F3EA5 /* cropArrowTopRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cropArrowTopRight@2x.png"; sourceTree = "<group>"; };
+		84B61CB51701C398008F3EA5 /* RKCropImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCropImageController.h; sourceTree = "<group>"; };
+		84B61CB61701C398008F3EA5 /* RKCropImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKCropImageController.m; sourceTree = "<group>"; };
+		84B61CB71701C398008F3EA5 /* RKCropImageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKCropImageController.xib; sourceTree = "<group>"; };
+		84B61CC21701C3C7008F3EA5 /* UIImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extensions.h"; sourceTree = "<group>"; };
+		84B61CC31701C3C7008F3EA5 /* UIImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extensions.m"; sourceTree = "<group>"; };
+		84B61CCB1701C65E008F3EA5 /* example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B61C831701C36A008F3EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B61C8A1701C36A008F3EA5 /* UIKit.framework in Frameworks */,
+				84B61C8C1701C36A008F3EA5 /* Foundation.framework in Frameworks */,
+				84B61C8E1701C36A008F3EA5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B61C7D1701C36A008F3EA5 = {
+			isa = PBXGroup;
+			children = (
+				84B61C8F1701C36A008F3EA5 /* RKCropImageControllerExample */,
+				84B61C881701C36A008F3EA5 /* Frameworks */,
+				84B61C871701C36A008F3EA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B61C871701C36A008F3EA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B61C861701C36A008F3EA5 /* RKCropImageControllerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B61C881701C36A008F3EA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84B61C891701C36A008F3EA5 /* UIKit.framework */,
+				84B61C8B1701C36A008F3EA5 /* Foundation.framework */,
+				84B61C8D1701C36A008F3EA5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84B61C8F1701C36A008F3EA5 /* RKCropImageControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				84B61CAC1701C398008F3EA5 /* RKCropImageController */,
+				84B61C981701C36A008F3EA5 /* AppDelegate.h */,
+				84B61C991701C36A008F3EA5 /* AppDelegate.m */,
+				84B61CA11701C36A008F3EA5 /* ViewController.h */,
+				84B61CA21701C36A008F3EA5 /* ViewController.m */,
+				84B61CA41701C36A008F3EA5 /* ViewController.xib */,
+				84B61C901701C36A008F3EA5 /* Supporting Files */,
+			);
+			path = RKCropImageControllerExample;
+			sourceTree = "<group>";
+		};
+		84B61C901701C36A008F3EA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B61CCB1701C65E008F3EA5 /* example.jpg */,
+				84B61C911701C36A008F3EA5 /* RKCropImageControllerExample-Info.plist */,
+				84B61C921701C36A008F3EA5 /* InfoPlist.strings */,
+				84B61C951701C36A008F3EA5 /* main.m */,
+				84B61C971701C36A008F3EA5 /* RKCropImageControllerExample-Prefix.pch */,
+				84B61C9B1701C36A008F3EA5 /* Default.png */,
+				84B61C9D1701C36A008F3EA5 /* Default@2x.png */,
+				84B61C9F1701C36A008F3EA5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84B61CAC1701C398008F3EA5 /* RKCropImageController */ = {
+			isa = PBXGroup;
+			children = (
+				84B61CC21701C3C7008F3EA5 /* UIImage+Extensions.h */,
+				84B61CC31701C3C7008F3EA5 /* UIImage+Extensions.m */,
+				84B61CAD1701C398008F3EA5 /* cropArrowBottomLeft.png */,
+				84B61CAE1701C398008F3EA5 /* cropArrowBottomLeft@2x.png */,
+				84B61CAF1701C398008F3EA5 /* cropArrowBottomRight.png */,
+				84B61CB01701C398008F3EA5 /* cropArrowBottomRight@2x.png */,
+				84B61CB11701C398008F3EA5 /* cropArrowTopLeft.png */,
+				84B61CB21701C398008F3EA5 /* cropArrowTopLeft@2x.png */,
+				84B61CB31701C398008F3EA5 /* cropArrowTopRight.png */,
+				84B61CB41701C398008F3EA5 /* cropArrowTopRight@2x.png */,
+				84B61CB51701C398008F3EA5 /* RKCropImageController.h */,
+				84B61CB61701C398008F3EA5 /* RKCropImageController.m */,
+				84B61CB71701C398008F3EA5 /* RKCropImageController.xib */,
+			);
+			path = RKCropImageController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B61C851701C36A008F3EA5 /* RKCropImageControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B61CA91701C36A008F3EA5 /* Build configuration list for PBXNativeTarget "RKCropImageControllerExample" */;
+			buildPhases = (
+				84B61C821701C36A008F3EA5 /* Sources */,
+				84B61C831701C36A008F3EA5 /* Frameworks */,
+				84B61C841701C36A008F3EA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RKCropImageControllerExample;
+			productName = RKCropImageControllerExample;
+			productReference = 84B61C861701C36A008F3EA5 /* RKCropImageControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B61C7E1701C36A008F3EA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ren6;
+			};
+			buildConfigurationList = 84B61C811701C36A008F3EA5 /* Build configuration list for PBXProject "RKCropImageControllerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84B61C7D1701C36A008F3EA5;
+			productRefGroup = 84B61C871701C36A008F3EA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B61C851701C36A008F3EA5 /* RKCropImageControllerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B61C841701C36A008F3EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B61C941701C36A008F3EA5 /* InfoPlist.strings in Resources */,
+				84B61C9C1701C36A008F3EA5 /* Default.png in Resources */,
+				84B61C9E1701C36A008F3EA5 /* Default@2x.png in Resources */,
+				84B61CA01701C36A008F3EA5 /* Default-568h@2x.png in Resources */,
+				84B61CA61701C36A008F3EA5 /* ViewController.xib in Resources */,
+				84B61CB81701C398008F3EA5 /* cropArrowBottomLeft.png in Resources */,
+				84B61CB91701C398008F3EA5 /* cropArrowBottomLeft@2x.png in Resources */,
+				84B61CBA1701C398008F3EA5 /* cropArrowBottomRight.png in Resources */,
+				84B61CBB1701C398008F3EA5 /* cropArrowBottomRight@2x.png in Resources */,
+				84B61CBC1701C398008F3EA5 /* cropArrowTopLeft.png in Resources */,
+				84B61CBD1701C398008F3EA5 /* cropArrowTopLeft@2x.png in Resources */,
+				84B61CBE1701C398008F3EA5 /* cropArrowTopRight.png in Resources */,
+				84B61CBF1701C398008F3EA5 /* cropArrowTopRight@2x.png in Resources */,
+				84B61CC11701C398008F3EA5 /* RKCropImageController.xib in Resources */,
+				84B61CCC1701C65E008F3EA5 /* example.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B61C821701C36A008F3EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B61C961701C36A008F3EA5 /* main.m in Sources */,
+				84B61C9A1701C36A008F3EA5 /* AppDelegate.m in Sources */,
+				84B61CA31701C36A008F3EA5 /* ViewController.m in Sources */,
+				84B61CC01701C398008F3EA5 /* RKCropImageController.m in Sources */,
+				84B61CC41701C3C7008F3EA5 /* UIImage+Extensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84B61C921701C36A008F3EA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B61C931701C36A008F3EA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84B61CA41701C36A008F3EA5 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B61CA51701C36A008F3EA5 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B61CA71701C36A008F3EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84B61CA81701C36A008F3EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B61CAA1701C36A008F3EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RKCropImageControllerExample/RKCropImageControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "RKCropImageControllerExample/RKCropImageControllerExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84B61CAB1701C36A008F3EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RKCropImageControllerExample/RKCropImageControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "RKCropImageControllerExample/RKCropImageControllerExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B61C811701C36A008F3EA5 /* Build configuration list for PBXProject "RKCropImageControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B61CA71701C36A008F3EA5 /* Debug */,
+				84B61CA81701C36A008F3EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B61CA91701C36A008F3EA5 /* Build configuration list for PBXNativeTarget "RKCropImageControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B61CAA1701C36A008F3EA5 /* Debug */,
+				84B61CAB1701C36A008F3EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B61C7E1701C36A008F3EA5 /* Project object */;
+}
