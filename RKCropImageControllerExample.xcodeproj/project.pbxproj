@@ -28,7 +28,7 @@
 		84B61CBF1701C398008F3EA5 /* cropArrowTopRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B61CB41701C398008F3EA5 /* cropArrowTopRight@2x.png */; };
 		84B61CC01701C398008F3EA5 /* RKCropImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B61CB61701C398008F3EA5 /* RKCropImageController.m */; };
 		84B61CC11701C398008F3EA5 /* RKCropImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B61CB71701C398008F3EA5 /* RKCropImageController.xib */; };
-		84B61CC41701C3C7008F3EA5 /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B61CC31701C3C7008F3EA5 /* UIImage+Extensions.m */; };
+		84B61CC41701C3C7008F3EA5 /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B61CC31701C3C7008F3EA5 /* UIImage+Extensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		84B61CCC1701C65E008F3EA5 /* example.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B61CCB1701C65E008F3EA5 /* example.jpg */; };
 /* End PBXBuildFile section */
 
@@ -318,6 +318,7 @@
 		84B61CAA1701C36A008F3EA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RKCropImageControllerExample/RKCropImageControllerExample-Prefix.pch";
 				INFOPLIST_FILE = "RKCropImageControllerExample/RKCropImageControllerExample-Info.plist";
@@ -330,6 +331,7 @@
 		84B61CAB1701C36A008F3EA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RKCropImageControllerExample/RKCropImageControllerExample-Prefix.pch";
 				INFOPLIST_FILE = "RKCropImageControllerExample/RKCropImageControllerExample-Info.plist";
