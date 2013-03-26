@@ -15,6 +15,11 @@ This is modal-style crop image controller that supports zooming to select border
   RKCropImageController *cropController = [[[RKCropImageController alloc] initWithImage:imageView.image] autorelease];
   cropController.delegate = self;
   [self presentModalViewController:cropController animated:YES];
+
+// delegate callback
+-(void)cropImageViewControllerDidFinished:(UIImage *)image{
+    imageView.image = image;
+}
 ```
 
 # Documentation
