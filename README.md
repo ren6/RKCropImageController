@@ -2,6 +2,7 @@ RKCropImageController
 =====================
 
 This is modal-style crop image controller that supports zooming to select borders with more accuracy.
+![Screenshot](https://github.com/ren6/RKCropImageController/raw/master/screenshot.png)
 
 # How to use
 
