@@ -5,7 +5,7 @@ This is modal-style crop image controller that supports zooming to select border
 ![Screenshot](https://github.com/ren6/RKCropImageController/raw/master/screenshot.png)
 
 # How to use
-
+Copy RKCropImageController folder to your project
 ``` objective-c
 
 // in header
