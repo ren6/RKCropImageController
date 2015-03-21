@@ -21,5 +21,6 @@
 - (UIImage *)imageByScalingToSize:(CGSize)targetSize;
 - (UIImage *)imageRotatedByRadians:(CGFloat)radians;
 - (UIImage *)imageRotatedByDegrees:(CGFloat)degrees;
+- (UIImage *)imageRotatedToUpOrientation;
 
 @end;
